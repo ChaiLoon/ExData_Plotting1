@@ -22,5 +22,5 @@ powerConsump[,8] <- as.numeric(powerConsump[,8])
 with(powerConsump, hist(Global_active_power, xlab = "Global Active Power (kilowatts)", col = "red", main="Global Active Power"))
 
 # Save Plot1 as PNG file
-dev.copy(device = png, width=480, height=480, file= "Plot1.png")
+dev.copy(device = png, width=480, height=480, file= "plot1.png")
 dev.off()
